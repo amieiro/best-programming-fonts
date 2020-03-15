@@ -17,7 +17,19 @@ IF %ERRORLEVEL% EQU 0 (
     copy "fonts\fira-code\otf\FiraCode-Retina.otf" "%SystemRoot%\Fonts"
     reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "FiraCode-Retina (OpenType)" /t REG_SZ /d "FiraCode-Retina.otf" /f    
 
-     ECHO.
+    ECHO.
+    ECHO Installing Hack font
+    ECHO.
+    copy "fonts\hack\ttf\Hack-Bold.ttf" "%SystemRoot%\Fonts"
+    reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "Hack-Bold (TrueType)" /t REG_SZ /d "Hack-Bold.ttf" /f    
+    copy "fonts\hack\ttf\Hack-BoldItalic.ttf" "%SystemRoot%\Fonts"
+    reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "Hack-BoldItalic (TrueType)" /t REG_SZ /d "Hack-BoldItalic.ttf" /f    
+    copy "fonts\hack\ttf\Hack-Italic.ttf" "%SystemRoot%\Fonts"
+    reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "Hack-Italic (TrueType)" /t REG_SZ /d "Hack-Italic.ttf" /f    
+    copy "fonts\hack\ttf\Hack-Regular.ttf" "%SystemRoot%\Fonts"
+    reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "Hack-Regular (TrueType)" /t REG_SZ /d "Hack-Regular.ttf" /f    
+
+    ECHO.
     ECHO Fonts installed!
     ECHO Remember to close and open your programs to load the new fonts!
     ECHO.

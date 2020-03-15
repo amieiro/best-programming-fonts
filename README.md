@@ -11,6 +11,7 @@ All these fonts are free and open according to the [Open Source Initiative](http
         - [Windows](#windows)
     - [Fonts](#fonts)
         - [Fira Code](#fira-code)
+        - [Hack](#hack)
     - [Todo](#todo)
 
 <!-- /TOC -->
@@ -43,6 +44,14 @@ That's all folks.
 * License: [SIL Open Font License 1.1](https://github.com/tonsky/FiraCode/blob/master/LICENSE).
 
 You need to explicitly enable ligatures support in some editors. Get more information about it [in this link](https://github.com/tonsky/FiraCode/wiki).
+
+### Hack
+
+* Version: [3.003](https://github.com/source-foundry/Hack/releases/tag/v3.003).
+* Format: TTF.
+* [Website](https://sourcefoundry.org/hack/).
+* [Source code](https://github.com/source-foundry/Hack).
+* License: [MIT License](https://github.com/source-foundry/Hack/blob/master/LICENSE.md).
 
 ## Todo
 
