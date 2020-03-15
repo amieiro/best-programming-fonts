@@ -12,6 +12,7 @@ All these fonts are free and open according to the [Open Source Initiative](http
     - [Fonts](#fonts)
         - [Fira Code](#fira-code)
         - [Hack](#hack)
+        - [JetBrains Mono](#jetbrains-mono)
     - [Todo](#todo)
 
 <!-- /TOC -->
@@ -52,6 +53,14 @@ You need to explicitly enable ligatures support in some editors. Get more inform
 * [Website](https://sourcefoundry.org/hack/).
 * [Source code](https://github.com/source-foundry/Hack).
 * License: [MIT License](https://github.com/source-foundry/Hack/blob/master/LICENSE.md).
+
+### JetBrains Mono
+
+* Version: [1.0.4](https://github.com/JetBrains/JetBrainsMono/releases/tag/v1.0.4).
+* Format: TTF.
++ [Website](https://www.jetbrains.com/lp/mono/).
+* [Source code](https://github.com/JetBrains/JetBrainsMono).
+* License: [Apache License 2.0](https://github.com/JetBrains/JetBrainsMono/blob/master/LICENSE).
 
 ## Todo
 

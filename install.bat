@@ -30,6 +30,43 @@ IF %ERRORLEVEL% EQU 0 (
     reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "Hack-Regular (TrueType)" /t REG_SZ /d "Hack-Regular.ttf" /f    
 
     ECHO.
+    ECHO Installing JetBrains Mono font
+    ECHO.
+
+    copy "fonts\jetbrains-mono\ttf\JetBrainsMono-Bold.ttf" "%SystemRoot%\Fonts"
+    reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "JetBrainsMono-Bold (TrueType)" /t REG_SZ /d "JetBrainsMono-Bold.ttf" /f   
+    copy "fonts\jetbrains-mono\ttf\JetBrainsMono-Bold-Italic.ttf" "%SystemRoot%\Fonts"
+    reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "JetBrainsMono-Bold-Italic (TrueType)" /t REG_SZ /d "JetBrainsMono-Bold-Italic.ttf" /f   
+    copy "fonts\jetbrains-mono\ttf\JetBrainsMono-ExtraBold.ttf" "%SystemRoot%\Fonts"
+    reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "JetBrainsMono-ExtraBold (TrueType)" /t REG_SZ /d "JetBrainsMono-ExtraBold.ttf" /f   
+    copy "fonts\jetbrains-mono\ttf\JetBrainsMono-ExtraBold-Italic.ttf" "%SystemRoot%\Fonts"
+    reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "JetBrainsMono-ExtraBold-Italic (TrueType)" /t REG_SZ /d "JetBrainsMono-ExtraBold-Italic.ttf" /f   
+    copy "fonts\jetbrains-mono\ttf\JetBrainsMono-Italic.ttf" "%SystemRoot%\Fonts"
+    reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "JetBrainsMono-Italic (TrueType)" /t REG_SZ /d "JetBrainsMono-Italic.ttf" /f   
+    copy "fonts\jetbrains-mono\ttf\JetBrainsMono-Medium.ttf" "%SystemRoot%\Fonts"
+    reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "JetBrainsMono-Medium (TrueType)" /t REG_SZ /d "JetBrainsMono-Medium.ttf" /f   
+    copy "fonts\jetbrains-mono\ttf\JetBrainsMono-Medium-Italic.ttf" "%SystemRoot%\Fonts"
+    reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "JetBrainsMono-Medium-Italic (TrueType)" /t REG_SZ /d "JetBrainsMono-Medium-Italic.ttf" /f   
+    copy "fonts\jetbrains-mono\ttf\JetBrainsMonoNL-Bold.ttf" "%SystemRoot%\Fonts"
+    reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "JetBrainsMonoNL-Bold (TrueType)" /t REG_SZ /d "JetBrainsMonoNL-Bold.ttf" /f   
+    copy "fonts\jetbrains-mono\ttf\JetBrainsMonoNL-Bold-Italic.ttf" "%SystemRoot%\Fonts"
+    reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "JetBrainsMonoNL-Bold-Italic (TrueType)" /t REG_SZ /d "JetBrainsMonoNL-Bold-Italic.ttf" /f   
+    copy "fonts\jetbrains-mono\ttf\JetBrainsMonoNL-ExtraBold.ttf" "%SystemRoot%\Fonts"
+    reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "JetBrainsMonoNL-ExtraBold (TrueType)" /t REG_SZ /d "JetBrainsMonoNL-ExtraBold.ttf" /f   
+    copy "fonts\jetbrains-mono\ttf\JetBrainsMonoNL-ExtraBold-Italic.ttf" "%SystemRoot%\Fonts"
+    reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "JetBrainsMonoNL-ExtraBold-Italic (TrueType)" /t REG_SZ /d "JetBrainsMonoNL-ExtraBold-Italic.ttf" /f   
+    copy "fonts\jetbrains-mono\ttf\JetBrainsMonoNL-Italic.ttf" "%SystemRoot%\Fonts"
+    reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "JetBrainsMonoNL-Italic (TrueType)" /t REG_SZ /d "JetBrainsMonoNL-Italic.ttf" /f   
+    copy "fonts\jetbrains-mono\ttf\JetBrainsMonoNL-Medium.ttf" "%SystemRoot%\Fonts"
+    reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "JetBrainsMonoNL-Medium (TrueType)" /t REG_SZ /d "JetBrainsMonoNL-Medium.ttf" /f   
+    copy "fonts\jetbrains-mono\ttf\JetBrainsMonoNL-Medium-Italic.ttf" "%SystemRoot%\Fonts"
+    reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "JetBrainsMonoNL-Medium-Italic (TrueType)" /t REG_SZ /d "JetBrainsMonoNL-Medium-Italic.ttf" /f   
+    copy "fonts\jetbrains-mono\ttf\JetBrainsMonoNL-Regular.ttf" "%SystemRoot%\Fonts"
+    reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "JetBrainsMonoNL-Regular (TrueType)" /t REG_SZ /d "JetBrainsMonoNL-Regular.ttf" /f   
+    copy "fonts\jetbrains-mono\ttf\JetBrainsMono-Regular.ttf" "%SystemRoot%\Fonts"
+    reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "JetBrainsMono-Regular (TrueType)" /t REG_SZ /d "JetBrainsMono-Regular.ttf" /f   
+
+    ECHO.
     ECHO Fonts installed!
     ECHO Remember to close and open your programs to load the new fonts!
     ECHO.
