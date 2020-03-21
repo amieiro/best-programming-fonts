@@ -9,7 +9,9 @@ All these fonts are free and open according to the [Open Source Initiative](http
 - [Best programming fonts](#best-programming-fonts)
     - [Instalation](#instalation)
         - [Windows](#windows)
+    - [Updates](#updates)
     - [Fonts](#fonts)
+        - [Fantasque Sans Mono](#fantasque-sans-mono)
         - [Fira Code](#fira-code)
         - [Hack](#hack)
         - [JetBrains Mono](#jetbrains-mono)
@@ -35,7 +37,19 @@ Execute the **install.bat** script from this terminal.
 
 That's all folks.
 
+## Updates
+
+If you want to update the fonts with the last version, 
+
 ## Fonts
+### Fantasque Sans Mono
+
+* Version: [1.8.0](https://github.com/belluzj/fantasque-sans/releases/tag/v1.8.0).
+* Format: OTF.
+* Variation used: Normal.
+* [Website](https://fontlibrary.org/en/font/fantasque-sans-mono).
+* [Source code](https://github.com/belluzj/fantasque-sans).
+* License: [SIL Open Font License 1.1](https://github.com/belluzj/fantasque-sans/blob/master/LICENSE.txt).
 
 ### Fira Code
 

@@ -4,6 +4,18 @@ IF %ERRORLEVEL% EQU 0 (
     TITLE Adding Fonts..
 
     ECHO.
+    ECHO Installing Fantasque Sans Mono font
+    ECHO.
+    copy "fonts\fantasque-sans\FantasqueSansMono-Normal\otf\FantasqueSansMono-Bold.otf" "%SystemRoot%\Fonts"
+    reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "FantasqueSansMono-Bold (OpenType)" /t REG_SZ /d "FantasqueSansMono-Bold.otf" /f    
+    copy "fonts\fantasque-sans\FantasqueSansMono-Normal\otf\FantasqueSansMono-BoldItalic.otf" "%SystemRoot%\Fonts"
+    reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "FantasqueSansMono-BoldItalic (OpenType)" /t REG_SZ /d "FantasqueSansMono-BoldItalic.otf" /f    
+    copy "fonts\fantasque-sans\FantasqueSansMono-Normal\otf\FantasqueSansMono-Italic.otf" "%SystemRoot%\Fonts"
+    reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "FantasqueSansMono-Italic (OpenType)" /t REG_SZ /d "FantasqueSansMono-Italic.otf" /f    
+    copy "fonts\fantasque-sans\FantasqueSansMono-Normal\otf\FantasqueSansMono-Regular.otf" "%SystemRoot%\Fonts"
+    reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "FantasqueSansMono-Regular (OpenType)" /t REG_SZ /d "FantasqueSansMono-Regular.otf" /f    
+
+    ECHO.
     ECHO Installing Fira Code font
     ECHO.
     copy "fonts\fira-code\otf\FiraCode-Bold.otf" "%SystemRoot%\Fonts"
