@@ -14,6 +14,7 @@ All these fonts are free and open according to the [Open Source Initiative](http
         - [Fantasque Sans Mono](#fantasque-sans-mono)
         - [Fira Code](#fira-code)
         - [Hack](#hack)
+        - [Iosevka](#iosevka)
         - [JetBrains Mono](#jetbrains-mono)
     - [Todo](#todo)
 
@@ -67,6 +68,15 @@ You need to explicitly enable ligatures support in some editors. Get more inform
 * [Website](https://sourcefoundry.org/hack/).
 * [Source code](https://github.com/source-foundry/Hack).
 * License: [MIT License](https://github.com/source-foundry/Hack/blob/master/LICENSE.md).
+
+### Iosevka
+
+* Version: [2.3.3](https://github.com/be5invis/Iosevka/releases/tag/v2.3.3).
+* Format: TTF.
+* Variation used: 01-iosevka.
+* [Website](http://be5invis.github.io/Iosevka).
+* [Source code](https://github.com/be5invis/Iosevka).
+* License: [SIL Open Font License 1.1](https://github.com/be5invis/Iosevka).
 
 ### JetBrains Mono
 

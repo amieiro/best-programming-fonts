@@ -42,6 +42,64 @@ IF %ERRORLEVEL% EQU 0 (
     reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "Hack-Regular (TrueType)" /t REG_SZ /d "Hack-Regular.ttf" /f    
 
     ECHO.
+    ECHO Installing Iosevka font
+    ECHO.
+    copy "fonts\iosevka\ttf\iosevka-bold.ttf" "%SystemRoot%\Fonts"
+    reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "iosevka-bold (TrueType)" /t REG_SZ /d "iosevka-bold.ttf" /f   
+    copy "fonts\iosevka\ttf\iosevka-bolditalic.ttf" "%SystemRoot%\Fonts"
+    reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "iosevka-bolditalic (TrueType)" /t REG_SZ /d "iosevka-bolditalic.ttf" /f   
+    copy "fonts\iosevka\ttf\iosevka-boldoblique.ttf" "%SystemRoot%\Fonts"
+    reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "iosevka-boldoblique (TrueType)" /t REG_SZ /d "iosevka-boldoblique.ttf" /f   
+    copy "fonts\iosevka\ttf\iosevka-extrabold.ttf" "%SystemRoot%\Fonts"
+    reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "iosevka-extrabold (TrueType)" /t REG_SZ /d "iosevka-extrabold.ttf" /f   
+    copy "fonts\iosevka\ttf\iosevka-extrabolditalic.ttf" "%SystemRoot%\Fonts"
+    reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "iosevka-extrabolditalic (TrueType)" /t REG_SZ /d "iosevka-extrabolditalic.ttf" /f   
+    copy "fonts\iosevka\ttf\iosevka-extraboldoblique.ttf" "%SystemRoot%\Fonts"
+    reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "iosevka-extraboldoblique (TrueType)" /t REG_SZ /d "iosevka-extraboldoblique.ttf" /f   
+    copy "fonts\iosevka\ttf\iosevka-extralight.ttf" "%SystemRoot%\Fonts"
+    reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "iosevka-extralight (TrueType)" /t REG_SZ /d "iosevka-extralight.ttf" /f   
+    copy "fonts\iosevka\ttf\iosevka-extralightitalic.ttf" "%SystemRoot%\Fonts"
+    reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "iosevka-extralightitalic (TrueType)" /t REG_SZ /d "iosevka-extralightitalic.ttf" /f   
+    copy "fonts\iosevka\ttf\iosevka-extralightoblique.ttf" "%SystemRoot%\Fonts"
+    reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "iosevka-extralightoblique (TrueType)" /t REG_SZ /d "iosevka-extralightoblique.ttf" /f   
+    copy "fonts\iosevka\ttf\iosevka-heavy.ttf" "%SystemRoot%\Fonts"
+    reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "iosevka-heavy (TrueType)" /t REG_SZ /d "iosevka-heavy.ttf" /f   
+    copy "fonts\iosevka\ttf\iosevka-heavyitalic.ttf" "%SystemRoot%\Fonts"
+    reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "iosevka-heavyitalic (TrueType)" /t REG_SZ /d "iosevka-heavyitalic.ttf" /f   
+    copy "fonts\iosevka\ttf\iosevka-heavyoblique.ttf" "%SystemRoot%\Fonts"
+    reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "iosevka-heavyoblique (TrueType)" /t REG_SZ /d "iosevka-heavyoblique.ttf" /f   
+    copy "fonts\iosevka\ttf\iosevka-italic.ttf" "%SystemRoot%\Fonts"
+    reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "iosevka-italic (TrueType)" /t REG_SZ /d "iosevka-italic.ttf" /f   
+    copy "fonts\iosevka\ttf\iosevka-light.ttf" "%SystemRoot%\Fonts"
+    reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "iosevka-light (TrueType)" /t REG_SZ /d "iosevka-light.ttf" /f   
+    copy "fonts\iosevka\ttf\iosevka-lightitalic.ttf" "%SystemRoot%\Fonts"
+    reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "iosevka-lightitalic (TrueType)" /t REG_SZ /d "iosevka-lightitalic.ttf" /f   
+    copy "fonts\iosevka\ttf\iosevka-lightoblique.ttf" "%SystemRoot%\Fonts"
+    reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "iosevka-lightoblique (TrueType)" /t REG_SZ /d "iosevka-lightoblique.ttf" /f   
+    copy "fonts\iosevka\ttf\iosevka-medium.ttf" "%SystemRoot%\Fonts"
+    reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "iosevka-medium (TrueType)" /t REG_SZ /d "iosevka-medium.ttf" /f   
+    copy "fonts\iosevka\ttf\iosevka-mediumitalic.ttf" "%SystemRoot%\Fonts"
+    reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "iosevka-mediumitalic (TrueType)" /t REG_SZ /d "iosevka-mediumitalic.ttf" /f   
+    copy "fonts\iosevka\ttf\iosevka-mediumoblique.ttf" "%SystemRoot%\Fonts"
+    reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "iosevka-mediumoblique (TrueType)" /t REG_SZ /d "iosevka-mediumoblique.ttf" /f   
+    copy "fonts\iosevka\ttf\iosevka-oblique.ttf" "%SystemRoot%\Fonts"
+    reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "iosevka-oblique (TrueType)" /t REG_SZ /d "iosevka-oblique.ttf" /f   
+    copy "fonts\iosevka\ttf\iosevka-regular.ttf" "%SystemRoot%\Fonts"
+    reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "iosevka-regular (TrueType)" /t REG_SZ /d "iosevka-regular.ttf" /f   
+    copy "fonts\iosevka\ttf\iosevka-semibold.ttf" "%SystemRoot%\Fonts"
+    reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "iosevka-semibold (TrueType)" /t REG_SZ /d "iosevka-semibold.ttf" /f   
+    copy "fonts\iosevka\ttf\iosevka-semibolditalic.ttf" "%SystemRoot%\Fonts"
+    reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "iosevka-semibolditalic (TrueType)" /t REG_SZ /d "iosevka-semibolditalic.ttf" /f   
+    copy "fonts\iosevka\ttf\iosevka-semiboldoblique.ttf" "%SystemRoot%\Fonts"
+    reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "iosevka-semiboldoblique (TrueType)" /t REG_SZ /d "iosevka-semiboldoblique.ttf" /f   
+    copy "fonts\iosevka\ttf\iosevka-thin.ttf" "%SystemRoot%\Fonts"
+    reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "iosevka-thin (TrueType)" /t REG_SZ /d "iosevka-thin.ttf" /f   
+    copy "fonts\iosevka\ttf\iosevka-thinitalic.ttf" "%SystemRoot%\Fonts"
+    reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "iosevka-thinitalic (TrueType)" /t REG_SZ /d "iosevka-thinitalic.ttf" /f   
+    copy "fonts\iosevka\ttf\iosevka-thinoblique.ttf" "%SystemRoot%\Fonts"
+    reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "iosevka-thinoblique (TrueType)" /t REG_SZ /d "iosevka-thinoblique.ttf" /f   
+
+    ECHO.
     ECHO Installing JetBrains Mono font
     ECHO.
 
