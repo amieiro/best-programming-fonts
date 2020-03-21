@@ -10,6 +10,7 @@ All these fonts are free and open according to the [Open Source Initiative](http
     - [Instalation](#instalation)
         - [Windows](#windows)
     - [Updates](#updates)
+        - [Windows](#windows-1)
     - [Fonts](#fonts)
         - [Anonymous Pro](#anonymous-pro)
         - [Fantasque Sans Mono](#fantasque-sans-mono)
@@ -42,7 +43,21 @@ That's all folks.
 
 ## Updates
 
-If you want to update the fonts with the last version, 
+### Windows
+
+If you want to update the fonts with the latest version, update the local repo 
+
+```
+git pull 
+```
+
+or [download the zip file](https://github.com/amieiro/best-programming-fonts/archive/master.zip) and unzip it.
+
+Open a Windows terminal as **administrator** and access to the project folder.
+
+Execute the **install.bat** script from this terminal.
+
+That's all folks.
 
 ## Fonts
 
