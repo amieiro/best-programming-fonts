@@ -11,6 +11,7 @@ All these fonts are free and open according to the [Open Source Initiative](http
         - [Windows](#windows)
     - [Updates](#updates)
     - [Fonts](#fonts)
+        - [Anonymous Pro](#anonymous-pro)
         - [Fantasque Sans Mono](#fantasque-sans-mono)
         - [Fira Code](#fira-code)
         - [Hack](#hack)
@@ -44,6 +45,16 @@ That's all folks.
 If you want to update the fonts with the last version, 
 
 ## Fonts
+
+### Anonymous Pro
+
+* Version: [1.2.1](https://www.marksimonson.com/assets/content/fonts/AnonymousPro-1.002.zip).
+* Format: OTF.
+* Variation used: Normal.
+* [Website](https://www.marksimonson.com/fonts/view/anonymous-pro).
+* [Source code](https://www.marksimonson.com/assets/content/fonts/Anonymous_Pro_1.002_Source.zip).
+* License: [SIL Open Font License 1.1](https://opensource.org/licenses/OFL-1.1).
+
 ### Fantasque Sans Mono
 
 * Version: [1.8.0](https://github.com/belluzj/fantasque-sans/releases/tag/v1.8.0).
@@ -97,7 +108,7 @@ You need to explicitly enable ligatures support in some editors. Get more inform
 
 ## Todo
 
-* Add more fonts.
+* Add more fonts. See [Source Foundry](https://sourcefoundry.org/hack/playground.html).
 * Add a script to install it in Linux and in OSX.
 * In the installation script, enable the option to install only one or more fonts.
 * Add screenshots.

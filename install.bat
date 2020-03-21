@@ -6,6 +6,18 @@ IF %ERRORLEVEL% EQU 0 (
     ECHO.
     ECHO Installing Fantasque Sans Mono font
     ECHO.
+    copy "fonts\anonymous-pro\ttf\Anonymous Pro.ttf" "%SystemRoot%\Fonts"
+    reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "Anonymous Pro.ttf (TrueType)" /t REG_SZ /d "Anonymous Pro.ttf" /f    
+    copy "fonts\anonymous-pro\ttf\Anonymous Pro I.ttf" "%SystemRoot%\Fonts"
+    reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "Anonymous Pro I.ttf (TrueType)" /t REG_SZ /d "Anonymous Pro I.ttf" /f    
+    copy "fonts\anonymous-pro\ttf\Anonymous Pro BI.ttf" "%SystemRoot%\Fonts"
+    reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "Anonymous Pro BI.ttf (TrueType)" /t REG_SZ /d "Anonymous Pro BI.ttf" /f    
+    copy "fonts\anonymous-pro\ttf\Anonymous Pro B.ttf" "%SystemRoot%\Fonts"
+    reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "Anonymous Pro B.ttf (TrueType)" /t REG_SZ /d "Anonymous Pro B.ttf" /f    
+
+    ECHO.
+    ECHO Installing Fantasque Sans Mono font
+    ECHO.
     copy "fonts\fantasque-sans\FantasqueSansMono-Normal\otf\FantasqueSansMono-Bold.otf" "%SystemRoot%\Fonts"
     reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "FantasqueSansMono-Bold (OpenType)" /t REG_SZ /d "FantasqueSansMono-Bold.otf" /f    
     copy "fonts\fantasque-sans\FantasqueSansMono-Normal\otf\FantasqueSansMono-BoldItalic.otf" "%SystemRoot%\Fonts"
