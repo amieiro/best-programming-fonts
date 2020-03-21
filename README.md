@@ -16,6 +16,7 @@ All these fonts are free and open according to the [Open Source Initiative](http
         - [Hack](#hack)
         - [Iosevka](#iosevka)
         - [JetBrains Mono](#jetbrains-mono)
+        - [Source Code Pro](#source-code-pro)
     - [Todo](#todo)
 
 <!-- /TOC -->
@@ -85,6 +86,14 @@ You need to explicitly enable ligatures support in some editors. Get more inform
 + [Website](https://www.jetbrains.com/lp/mono/).
 * [Source code](https://github.com/JetBrains/JetBrainsMono).
 * License: [Apache License 2.0](https://github.com/JetBrains/JetBrainsMono/blob/master/LICENSE).
+
+### Source Code Pro
+
+* Version: [Roman fonts version 2.030 and Italic fonts version 1.050](https://github.com/adobe-fonts/source-code-pro/releases/tag/2.030R-ro%2F1.050R-it).
+* Format: OTF.
++ [Website](https://fonts.adobe.com/fonts/source-code-pro).
+* [Source code](https://github.com/adobe-fonts/source-code-pro).
+* License: [SIL Open Font License 1.1](https://github.com/adobe-fonts/source-code-pro/blob/release/LICENSE.md).
 
 ## Todo
 

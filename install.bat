@@ -137,6 +137,38 @@ IF %ERRORLEVEL% EQU 0 (
     reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "JetBrainsMono-Regular (TrueType)" /t REG_SZ /d "JetBrainsMono-Regular.ttf" /f   
 
     ECHO.
+    ECHO Installing Source Code Pro font
+    ECHO.
+    copy "fonts\source-code-pro\otf\SourceCodePro-Black.otf" "%SystemRoot%\Fonts"
+    reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "SourceCodePro-Black (TrueType)" /t REG_SZ /d "SourceCodePro-Black.otf" /f   
+    copy "fonts\source-code-pro\otf\SourceCodePro-BlackIt.otf" "%SystemRoot%\Fonts"
+    reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "SourceCodePro-BlackIt (TrueType)" /t REG_SZ /d "SourceCodePro-BlackIt.otf" /f   
+    copy "fonts\source-code-pro\otf\SourceCodePro-Bold.otf" "%SystemRoot%\Fonts"
+    reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "SourceCodePro-Bold (TrueType)" /t REG_SZ /d "SourceCodePro-Bold.otf" /f   
+    copy "fonts\source-code-pro\otf\SourceCodePro-BoldIt.otf" "%SystemRoot%\Fonts"
+    reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "SourceCodePro-BoldIt (TrueType)" /t REG_SZ /d "SourceCodePro-BoldIt.otf" /f   
+    copy "fonts\source-code-pro\otf\SourceCodePro-ExtraLight.otf" "%SystemRoot%\Fonts"
+    reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "SourceCodePro-ExtraLight (TrueType)" /t REG_SZ /d "SourceCodePro-ExtraLight.otf" /f   
+    copy "fonts\source-code-pro\otf\SourceCodePro-ExtraLightIt.otf" "%SystemRoot%\Fonts"
+    reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "SourceCodePro-ExtraLightIt (TrueType)" /t REG_SZ /d "SourceCodePro-ExtraLightIt.otf" /f   
+    copy "fonts\source-code-pro\otf\SourceCodePro-It.otf" "%SystemRoot%\Fonts"
+    reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "SourceCodePro-It (TrueType)" /t REG_SZ /d "SourceCodePro-It.otf" /f   
+    copy "fonts\source-code-pro\otf\SourceCodePro-Light.otf" "%SystemRoot%\Fonts"
+    reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "SourceCodePro-Light (TrueType)" /t REG_SZ /d "SourceCodePro-Light.otf" /f   
+    copy "fonts\source-code-pro\otf\SourceCodePro-LightIt.otf" "%SystemRoot%\Fonts"
+    reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "SourceCodePro-LightIt (TrueType)" /t REG_SZ /d "SourceCodePro-LightIt.otf" /f   
+    copy "fonts\source-code-pro\otf\SourceCodePro-Medium.otf" "%SystemRoot%\Fonts"
+    reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "SourceCodePro-Medium (TrueType)" /t REG_SZ /d "SourceCodePro-Medium.otf" /f   
+    copy "fonts\source-code-pro\otf\SourceCodePro-MediumIt.otf" "%SystemRoot%\Fonts"
+    reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "SourceCodePro-MediumIt (TrueType)" /t REG_SZ /d "SourceCodePro-MediumIt.otf" /f   
+    copy "fonts\source-code-pro\otf\SourceCodePro-Regular.otf" "%SystemRoot%\Fonts"
+    reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "SourceCodePro-Regular (TrueType)" /t REG_SZ /d "SourceCodePro-Regular.otf" /f   
+    copy "fonts\source-code-pro\otf\SourceCodePro-Semibold.otf" "%SystemRoot%\Fonts"
+    reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "SourceCodePro-Semibold (TrueType)" /t REG_SZ /d "SourceCodePro-Semibold.otf" /f   
+    copy "fonts\source-code-pro\otf\SourceCodePro-SemiboldIt.otf" "%SystemRoot%\Fonts"
+    reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "SourceCodePro-SemiboldIt (TrueType)" /t REG_SZ /d "SourceCodePro-SemiboldIt.otf" /f   
+
+    ECHO.
     ECHO Fonts installed!
     ECHO Remember to close and open your programs to load the new fonts!
     ECHO.
